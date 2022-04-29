@@ -4,7 +4,7 @@ import './App.css';
 import ShowList from './components/list/List';
 import Leftspace from './components/leftside/leftspace';
 import Showhead from './components/header/heading';
-
+import Accessbutton from './components/accessbutton/accessbutton';
 import Detail from './components/logindetails/details';
 const flag=false;
 function App() {
@@ -14,6 +14,7 @@ function App() {
      <Showhead role="Department/Role" access="Access level" num='No. of members' time='Last update'></Showhead>
 
      <Detail></Detail>
+     <Accessbutton></Accessbutton>
 
      <ShowList role="teacher" access="restricted" num='2' time='11'></ShowList>
      <ShowList role="teacher" access="restricted" num='2' time='11'></ShowList>
